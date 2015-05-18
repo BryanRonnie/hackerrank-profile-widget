@@ -10,4 +10,4 @@
  */
 
 require_once 'config.php';
-require_once 'widget.class.php';
+require_once 'class-hackerrank-profile.php';
