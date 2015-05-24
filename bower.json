@@ -1,0 +1,7 @@
+{
+  "name": "hackerrank-profile-widget",
+  "version": "1.0.3",
+  "dependencies": {
+    "angular": "master"
+  }
+}
