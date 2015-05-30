@@ -12,7 +12,8 @@
     "wp-git-svn.json",
     "wp-git-svn.py",
     "README.md",
-    "test"
+    "test",
+    "tests"
   ],
   "svn": {
     "permalink" : "https://plugins.svn.wordpress.org/hackerrank-profile-widget/trunk/"
