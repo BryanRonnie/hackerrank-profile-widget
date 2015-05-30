@@ -1,4 +1,4 @@
 .idea
 nbproject
 vendor
-wp-git-svn.py
+wpsync.py
