@@ -15,7 +15,5 @@
     "test",
     "tests"
   ],
-  "svn": {
-    "permalink" : "https://plugins.svn.wordpress.org/hackerrank-profile-widget/trunk/"
-  }
+  "svn": "https://plugins.svn.wordpress.org/hackerrank-profile-widget/trunk/"
 }
