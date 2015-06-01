@@ -115,9 +115,9 @@ class HackerRank_Profile extends WP_Widget {
 	}
 
 	public function register_widget_scripts() {
-		wp_register_script( $this->get_widget_slug() . 'angular-core', plugins_url( 'vendor/angular/angular.min.js', __FILE__ ), array(), null, false );
-		wp_register_script( $this->get_widget_slug() . 'my-angular-app', plugins_url( 'js/app.js', __FILE__ ), array( $this->get_widget_slug() . 'angular-core' ), null, false );
-		wp_enqueue_script( $this->get_widget_slug() . 'angular-core' );
+		wp_register_script( $this->get_widget_slug() . 'angular-core', plugins_url( 'vendor/angular/angular.min.js', __FILE__ ), array(), null, true );
+		wp_register_script( $this->get_widget_slug() . 'my-angular-app', plugins_url( 'js/app.js', __FILE__ ), array( $this->get_widget_slug() . 'angular-core' ), null, true );
+		wp_enqueue_script( $this->get_widget_slug() . 'angular-core');
 		wp_enqueue_script( $this->get_widget_slug() . 'my-angular-app' );
 	}
 }
