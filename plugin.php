@@ -59,7 +59,7 @@ class HackerRank_Profile extends WP_Widget {
 
 	public function __construct() {
 		parent::__construct(
-			'HackerrankWidget', 'HackerRank :: Profile',
+			'HackerrankWidget', 'HackerRank Profile',
 			array( 'description' => 'A widget to show a small version of your HackerRank profile.' )
 		);
 
