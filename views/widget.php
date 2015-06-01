@@ -29,15 +29,15 @@
 		<?php echo $before_title . $config['title'] . $after_title; ?>
 	<?php endif; ?>
 
-	<div class="hackerRankWidget"
+	<div class="hackerrank-widget refactors-widget"
 	     id='<?php echo $this->id; ?>'
 	     data-requestsurl="<?php echo HACKERRANK_REQUESTS, '/', ( isset( $config['username'] ) ? $config['username'] : '' ), '/' ?>">
 
 		<?php if ( ! isset( $config['hideBuiltInHeader'] ) || ! $config['hideBuiltInHeader'] == 'on' ) : ?>
-			<header>
-				<img src="https://www.hackerrank.com/assets/brand/h_mark_sm.png"/>
-                <div class="hrHeaderText">
-                    <a class='hrHeaderUsername' target='_blank'
+			<header class="refactors-widget-header">
+				<img class="refactors-widget-company-logo" src="https://www.hackerrank.com/assets/brand/h_mark_sm.png"/>
+                <div class="refactors-widget-header-text">
+                    <a class='refactors-widget-header-link' target='_blank'
                        href="https://www.hackerrank.com/<?php echo $config['username'] ?>">
                         <?php echo $config['username'] ?></a>
                     <span class="separator"> |</span>
@@ -46,7 +46,7 @@
 			</header>
 		<?php endif; ?>
 
-		<div class="hackerRankWidgetContent">
+		<div class="refactors-widget-content">
 			<?php
 			foreach ( $this->options as $option ) {
 				if ( substr( $option, 0, 4 ) === "show"

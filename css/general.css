@@ -17,138 +17,59 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
 
-/* HACKERRANK GENERAL */
 
-.hackerRankWidget {
-    border-radius: 5px !important;
-    box-sizing: border-box !important;
-}
-
-.hackerRankWidget,
-.hackerRankWidget p,
-.hackerRankWidget a,
-.hackerRankWidget h1,
-.hackerRankWidget h2 {
-    font-family: "Roboto", sans-serif !important;
-}
-
-.hackerRankWidget h2 {
-    font-size: 1em;
-    font-weight: bold;
-    padding: 0 .323em .1em;
-    margin: 1em -.323em .1em;
-}
-
-.hackerRankWidget header {
-    font-weight: bold;
-    margin-bottom: 8px;
-    padding: 5px 0;
-}
-
-.hackerRankWidget header img {
-    display: inline-block;
-    vertical-align: middle;
-    height: 1.5em;
-    margin-right: 4px;
-    right: 0;
-}
-
-.hackerRankWidget header * {
-    vertical-align: middle;
-}
-
-.hackerRankWidget .hrHeaderText {
-    display: inline-block;
-
-    vertical-align: middle;
-    line-height: 1.5em;
-}
-
-.hackerRankWidget header .hrHeaderUsername {
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.hackerRankWidget header span {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.hackerRankWidget .separator {
-    margin: 0 4px;
-}
-
-.hackerRankWidget .hrPane {
+.hackerrank-widget .hrPane {
     margin-bottom: 8px;
     width: 100%;
     font-size: 1em;
 }
 
-.hackerRankWidget .hrPane:last-child {
+.hackerrank-widget .hrPane:last-child {
     margin-bottom: 0;
 }
 
 .hackerRankWidgetContent {
-    padding: .323em;
+    padding: 5px;
 }
 
 /* PROFILE */
 
-.hackerRankWidget .hrAvatar {
-    border-radius: 4px;
-}
-
-.hackerRankWidget .hrProfile .hrLeft {
-    display: inline-block;
-    width: 28%;
-    margin-right: 2.5%;
-}
-
-.hackerRankWidget .hrProfile .hrRight {
-    display: inline-block;
-    vertical-align: top;
-    padding: 5px;
-    box-sizing: border-box;
-    width: 67.5%;
-}
-
-.hackerRankWidget .hrUserRealName,
-.hackerRankWidget .hrUserNameLink {
+.hackerrank-widget .hrUserRealName,
+.hackerrank-widget .hrUserNameLink {
     font-weight: bold;
 }
 
 /* BADGES */
 
-.hackerRankWidget .hrBadgeImage {
+.hackerrank-widget .hrBadgeImage {
     display: inline-block;
     max-width: 40px;
 }
 
-.hackerRankWidget .hrBadgeContent {
+.hackerrank-widget .hrBadgeContent {
     display: inline-block;
     vertical-align: top;
 }
 
-.hackerRankWidget .hrBadgeLevel {
+.hackerrank-widget .hrBadgeLevel {
     display: inline-block;
 }
 
-.hackerRankWidget .hrBadgeProgress {
+.hackerrank-widget .hrBadgeProgress {
     height: 10px;
     width: 100px;
     border-radius: 3px;
 }
 
-.hackerRankWidget .hrBadgeProgressBar {
+.hackerrank-widget .hrBadgeProgressBar {
     border-radius: 3px;
     height: 10px;
 }
 
 /* CONTESTS */
 
-.hackerRankWidget .hrContests {
+.hackerrank-widget .hrContests {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

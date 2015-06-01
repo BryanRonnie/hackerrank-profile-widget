@@ -107,6 +107,7 @@ class HackerRank_Profile extends WP_Widget {
 	}
 
 	public function register_widget_styles() {
+        wp_enqueue_style( $this->get_widget_slug() . '-widget-parent-styles', plugins_url( 'css/refactors-widget.css', __FILE__ ) );
 		wp_enqueue_style( $this->get_widget_slug() . '-widget-styles', plugins_url( 'css/general.css', __FILE__ ) );
 	}
 
