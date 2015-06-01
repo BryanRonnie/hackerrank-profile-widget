@@ -25,7 +25,7 @@
 }
 
 .hackerRankWidget h2 {
-    border-bottom: 1px solid #c2c7d0 !important;
+    border-bottom: 2px solid rgba(57, 66, 78, 1) !important;
 }
 
 .hackerRankWidget header {

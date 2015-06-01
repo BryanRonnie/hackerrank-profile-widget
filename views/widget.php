@@ -36,11 +36,13 @@
 		<?php if ( ! isset( $config['hideBuiltInHeader'] ) || ! $config['hideBuiltInHeader'] == 'on' ) : ?>
 			<header>
 				<img src="https://www.hackerrank.com/assets/brand/h_mark_sm.png"/>
-				<a class='hrHeaderUsername' target='_blank'
-				   href="https://www.hackerrank.com/<?php echo $config['username'] ?>">
-					<?php echo $config['username'] ?></a>
-				<span class="separator"> |</span>
-				<span>HackerRank</span>
+                <div class="hrHeaderText">
+                    <a class='hrHeaderUsername' target='_blank'
+                       href="https://www.hackerrank.com/<?php echo $config['username'] ?>">
+                        <?php echo $config['username'] ?></a>
+                    <span class="separator"> |</span>
+                    <span>HackerRank</span>
+                </div>
 			</header>
 		<?php endif; ?>
 
