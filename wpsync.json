@@ -9,8 +9,8 @@
     ".bowerrc",
     ".gitignore",
     ".editorconfig",
-    "wp-git-svn.json",
-    "wp-git-svn.py",
+    "wpsync.json",
+    "wpsync.py",
     "README.md",
     "test",
     "tests"
