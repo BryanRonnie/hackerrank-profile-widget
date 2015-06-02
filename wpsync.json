@@ -1,6 +1,8 @@
 {
   "increase": "build",
-  "main-file" : "plugin.php",
+  "plugin": {
+    "main" : "plugin.php"
+  },
   "ignore": [
     ".git",
     ".idea",
@@ -15,5 +17,5 @@
     "test",
     "tests"
   ],
-  "svn": "https://plugins.svn.wordpress.org/hackerrank-profile-widget/trunk/"
+  "wordpress-svn": "https://plugins.svn.wordpress.org/hackerrank-profile-widget/"
 }
