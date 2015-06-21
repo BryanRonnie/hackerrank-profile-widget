@@ -1,8 +1,8 @@
 {
   "increase": "build",
-  "plugin": {
-    "main" : "plugin.php"
-  },
+  "main": "plugin.php",
+  "readme": "readme.txt",
+  "wordpress-svn": "https://plugins.svn.wordpress.org/hackerrank-profile-widget/",
   "ignore": [
     ".git",
     ".idea",
@@ -11,11 +11,9 @@
     ".bowerrc",
     ".gitignore",
     ".editorconfig",
-    "wpsync.json",
-    "wpsync.py",
+    ".wpsync",
     "README.md",
     "test",
     "tests"
   ],
-  "wordpress-svn": "https://plugins.svn.wordpress.org/hackerrank-profile-widget/"
 }
